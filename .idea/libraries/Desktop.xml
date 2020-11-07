@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Desktop">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Desktop/dist/Desktop.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

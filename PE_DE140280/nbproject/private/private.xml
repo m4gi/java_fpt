@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/Magi/Documents/NetBeansProjects/PE_DE140280/web/WEB-INF/web.xml</file>
+            <file>file:/C:/Users/Magi/Documents/NetBeansProjects/PE_DE140280/src/java/Model/Group.java</file>
+            <file>file:/C:/Users/Magi/Documents/NetBeansProjects/PE_DE140280/web/Common/error_exception.jsp</file>
+            <file>file:/C:/Users/Magi/Documents/NetBeansProjects/PE_DE140280/src/java/Model/Contact.java</file>
+            <file>file:/C:/Users/Magi/Documents/NetBeansProjects/PE_DE140280/web/ListContacts.jsp</file>
+            <file>file:/C:/Users/Magi/Documents/NetBeansProjects/PE_DE140280/web/ListGroups.jsp</file>
+            <file>file:/C:/Users/Magi/Documents/NetBeansProjects/PE_DE140280/src/java/Model/GroupDB.java</file>
+            <file>file:/C:/Users/Magi/Documents/NetBeansProjects/PE_DE140280/src/java/Model/ContactDB.java</file>
+            <file>file:/C:/Users/Magi/Documents/NetBeansProjects/PE_DE140280/src/java/Controller/ContactController.java</file>
+            <file>file:/C:/Users/Magi/Documents/NetBeansProjects/PE_DE140280/src/java/Controller/HomeController.java</file>
+            <file>file:/C:/Users/Magi/Documents/NetBeansProjects/PE_DE140280/src/java/Controller/Validation.java</file>
+            <file>file:/C:/Users/Magi/Documents/NetBeansProjects/PE_DE140280/src/java/Model/DatabaseInfo.java</file>
+            <file>file:/C:/Users/Magi/Documents/NetBeansProjects/PE_DE140280/web/AddGroup.jsp</file>
+            <file>file:/C:/Users/Magi/Documents/NetBeansProjects/PE_DE140280/web/EditContact.jsp</file>
+            <file>file:/C:/Users/Magi/Documents/NetBeansProjects/PE_DE140280/src/java/Controller/GroupController.java</file>
+            <file>file:/C:/Users/Magi/Documents/NetBeansProjects/PE_DE140280/web/AddContact.jsp</file>
+            <file>file:/C:/Users/Magi/Documents/NetBeansProjects/PE_DE140280/src/java/struts.xml</file>
+        </group>
+    </open-files>
+</project-private>

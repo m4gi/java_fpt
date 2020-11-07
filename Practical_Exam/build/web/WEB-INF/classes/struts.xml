@@ -1,0 +1,62 @@
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    <!-- Configuration for the default package. -->
+    <package name="default" extends="struts-default">
+        !--=== DELETE EXTENSION ===-->
+        <action name="AddContact" class="controller.HomeController" method="loadContent">
+            <result name="success">/AddContact.jsp</result>
+            <result name="failure">Common/error_exception.jsp</result>
+        </action>
+        <action name="AddGroup">
+            <result>/AddGroup.jsp</result>
+        </action>
+        <action name="EditContact">
+            <result>/EditContact.jsp</result>
+        </action>
+        <action name="ListContacts">
+            <result>/ListContacts.jsp</result>
+        </action>
+        <action name="ListGroups">
+            <result>/ListGroups.jsp</result>
+        </action>
+        
+        <!--=== CONTACT ===-->
+        <action name="add_contact" class="controller.ContactController"   method="addContact">
+            <result name="success" type="redirect">ListContacts</result>
+            <result name="failure" type="redirect">AddContact</result>
+        </action>
+        <action name="view_contact" class="controller.ContactController"   method="viewContact">
+            <result name="success" type="redirect">ListContacts</result>
+            <result name="failure">Common/error_exception.jsp</result>
+        </action>
+        <action name="edit_contact" class="controller.ContactController"   method="editContact">
+            <result name="success" type="redirect">ListContacts</result>
+            <result name="failure" type="redirect">EditContact</result>
+        </action>
+        <action name="delete_contact" class="controller.ContactController"   method="deleteContact">
+            <result name="success" type="redirect">ListContacts</result>
+            <result name="failure">Common/error_exception.jsp</result>
+        </action>
+        <action name="get_contact" class="controller.ContactController"   method="getContact">
+            <result name="success">EditContact.jsp</result>
+            <result name="failure">Common/error_exception.jsp</result>
+        </action>
+        
+        <!--=== GROUP===-->
+        <action name="add_group" class="controller.GroupController"   method="addGroup">
+            <result name="success" type="redirect">ListGroups</result>
+            <result name="failure" type="redirect">AddGroup</result>
+        </action>
+        <action name="view_group" class="controller.GroupController"   method="viewGroup">
+            <result name="success" type="redirect">ListGroups</result>
+            <result name="failure">Common/error_exception.jsp</result>
+        </action>
+        <action name="delete_group" class="controller.GroupController"   method="deleteGroup">
+            <result name="success" type="redirect">ListGroups</result>
+            <result name="failure">Common/error_exception.jsp</result>
+        </action>
+    </package>
+</struts>

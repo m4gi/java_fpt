@@ -1,0 +1,66 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+package cz.autoclient.league_of_legends;
+
+import cz.autoclient.GUI.LazyLoadedRemoteImage;
+import cz.autoclient.league_of_legends.maps.Champions;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+/**
+ *
+ * @author Jakub
+ */
+public class Champion extends GameObjectWithImage {
+
+  
+  public final LazyLoadedRemoteImage img;
+  
+  public final String name;
+
+  
+  public Champion(Champions pool, String key, JSONObject src) {
+    super(pool, key, src);
+
+    String name_tmp = "undefined";
+    try {
+      name_tmp = src.getString("name");
+    } catch (JSONException ex) {
+      Logger.getLogger(this.getClass().getName()).log(Level.INFO, "JSON data: "+src.toString());
+      throw new IllegalArgumentException("Invalid json data. Got error when fetching name: "+ex);
+    }
+    name = name_tmp;
+    
+    img = new LazyLoadedRemoteImage(getImgPath(), getImgUrl());
+  }
+  
+  
+  @Override
+  public String createImgPath() {
+    return parent.getRoot().getAbsolutePath()+"/champion_avatar/"+getImgName();
+  }
+
+  /**
+   * Generates name from ["image"]["full"] or ["name"] if the first is not available.
+   * @return
+   */
+  @Override
+  public String createImgName() {
+    try {
+      return getJSONData().getJSONObject("image").getString("full");
+    }
+    catch(JSONException e) {
+      return  name.replaceAll("[^a-zA-Z]", "")+".png"; 
+    }
+  }
+  @Override
+  public String createImgUrl() {
+    return "http://ddragon.leagueoflegends.com/cdn/"+parent.getVersion()+"/img/champion/"+getImgName();
+  }
+}

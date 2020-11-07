@@ -1,0 +1,17 @@
+SMAP
+ListContacts_jsp.java
+JSP
+*S JSP
+*F
++ 0 ListContacts.jsp
+ListContacts.jsp
+*L
+1,32:55
+32:88,11
+33:99
+34,6:100,3
+40:118
+41,2:119,3
+43,3:125
+45,53:144
+*E

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/21/21.iml" filepath="$PROJECT_DIR$/21/21.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ABC/ABC.iml" filepath="$PROJECT_DIR$/ABC/ABC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BT1/BT1.iml" filepath="$PROJECT_DIR$/BT1/BT1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CSD201-Lab/CSD201-Lab.iml" filepath="$PROJECT_DIR$/CSD201-Lab/CSD201-Lab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Database/Database.iml" filepath="$PROJECT_DIR$/Database/Database.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Desktop/Desktop.iml" filepath="$PROJECT_DIR$/Desktop/Desktop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Example/Example.iml" filepath="$PROJECT_DIR$/Example/Example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Final/Final.iml" filepath="$PROJECT_DIR$/Final/Final.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Fraction/Fraction.iml" filepath="$PROJECT_DIR$/Fraction/Fraction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java7/Java7.iml" filepath="$PROJECT_DIR$/Java7/Java7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaLab/JavaLab.iml" filepath="$PROJECT_DIR$/JavaLab/JavaLab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LinkList/LinkList.iml" filepath="$PROJECT_DIR$/LinkList/LinkList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ListDemo/ListDemo.iml" filepath="$PROJECT_DIR$/ListDemo/ListDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ListDemo1/ListDemo1.iml" filepath="$PROJECT_DIR$/ListDemo1/ListDemo1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MJ2/MJ2.iml" filepath="$PROJECT_DIR$/MJ2/MJ2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Model/Model.iml" filepath="$PROJECT_DIR$/Model/Model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/NetBeansProjects.iml" filepath="$PROJECT_DIR$/.idea/NetBeansProjects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/QueueDemo/QueueDemo.iml" filepath="$PROJECT_DIR$/QueueDemo/QueueDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Short1/Short1.iml" filepath="$PROJECT_DIR$/Short1/Short1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Short10/Short10.iml" filepath="$PROJECT_DIR$/Short10/Short10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Short11/Short11.iml" filepath="$PROJECT_DIR$/Short11/Short11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Short50/Short50.iml" filepath="$PROJECT_DIR$/Short50/Short50.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Short51/Short51.iml" filepath="$PROJECT_DIR$/Short51/Short51.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Short6/Short6.iml" filepath="$PROJECT_DIR$/Short6/Short6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Short61/Short61.iml" filepath="$PROJECT_DIR$/Short61/Short61.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Short74/Short74.iml" filepath="$PROJECT_DIR$/Short74/Short74.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Short8/Short8.iml" filepath="$PROJECT_DIR$/Short8/Short8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SimpleCode/SimpleCode.iml" filepath="$PROJECT_DIR$/SimpleCode/SimpleCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StackDemo/StackDemo.iml" filepath="$PROJECT_DIR$/StackDemo/StackDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tour/Tour.iml" filepath="$PROJECT_DIR$/Tour/Tour.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WS8/WS8.iml" filepath="$PROJECT_DIR$/WS8/WS8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ass/ass.iml" filepath="$PROJECT_DIR$/ass/ass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practicalexam/practicalexam.iml" filepath="$PROJECT_DIR$/practicalexam/practicalexam.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
+    </modules>
+  </component>
+</project>
